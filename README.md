@@ -15,6 +15,3 @@ This is a simple currency converter web application built with HTML, CSS, and Ja
 ## Credits
 - Currency exchange rates are fetched from [ExchangeRate-API](https://www.exchangerate-api.com/).
 
-## License
-This project is licensed under the [MIT License](LICENSE).
-# currency-converter
