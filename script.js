@@ -54,23 +54,6 @@ function createOption(value) {
   return option;
 }
 
-// Function to update flag icons
-// Function to update flag icons
-// Function to update flag icons
-async function updateFlagIcons() {
-  const fromCurrency = document.getElementById('fromCurrency').value;
-  const toCurrency = document.getElementById('toCurrency').value;
-
-  const flagUrls = await Promise.all([
-      fetch(`https://countryflags.io/${fromCurrency.slice(0, 2)}/flat/64.png`).then(response => response.ok ? response.url : null),
-      fetch(`https://countryflags.io/${toCurrency.slice(0, 2)}/flat/64.png`).then(response => response.ok ? response.url : null)
-  ]);
-
-  document.getElementById('fromFlag').src = flagUrls[0] || 'placeholder.png';
-  document.getElementById('toFlag').src = flagUrls[1] || 'placeholder.png';
-}
-
-
 
 // Function to convert currency
 async function convertCurrency() {
