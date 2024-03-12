@@ -40,7 +40,7 @@ async function populateCurrencies() {
 
   // Set default currencies
   fromCurrencyDropdown.value = 'USD';
-  toCurrencyDropdown.value = 'EUR';
+  toCurrencyDropdown.value = 'INR';
 
   // Trigger conversion initially
   convertCurrency();
